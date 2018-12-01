@@ -1,6 +1,6 @@
 {
 	"name": "ms-to-frames",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Convert milliseconds to frames",
 	"main": "index.js",
 	"scripts": {
