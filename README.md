@@ -16,10 +16,10 @@ npm install ms-to-frames
 const msToFrames = require("ms-to-frames");
 
 // Convert 1000ms to frames at 25fps
-msToFrames.convert(1000, 25);
+msToFrames.convert(1000, "25");
 // -> 25
 
 // Convert 156200ms to frames at 30fps
-msToFrames.convert(1000, 25);
+msToFrames.convert(156200, "30");
 // -> 4686
 ```
