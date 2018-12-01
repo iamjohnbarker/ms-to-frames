@@ -1,0 +1,29 @@
+{
+	"name": "ms-to-frames",
+	"version": "1.0.0",
+	"description": "Convert milliseconds to frames",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/iamjohnbarker/ms-to-frames.git"
+	},
+	"keywords": [
+		"ms",
+		"frames",
+		"milliseconds",
+		"conversion"
+	],
+	"author": "John Barker",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/iamjohnbarker/ms-to-frames/issues"
+	},
+	"homepage": "https://github.com/iamjohnbarker/ms-to-frames#readme",
+	"dependencies": {
+		"ms-to-timecode": "^0.1.2",
+		"timecode": "0.0.4"
+	}
+}
